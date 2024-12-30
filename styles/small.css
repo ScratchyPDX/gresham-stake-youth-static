@@ -16,6 +16,11 @@ body {
   font-size: 16px;
   font-family: Roboto, Helvetica, sans-serif;
 }
+
+.bold {
+  font-weight: bold;
+}
+
 .box-shadow {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
@@ -141,6 +146,7 @@ main .article .button {
   background-color: var(--accent2-color);
   border-radius: 10px;
 }
+
 main .article p {
   left: 2rem;
   top: 0.5rem;
