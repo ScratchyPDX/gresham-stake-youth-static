@@ -37,7 +37,10 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 const downloadCalendarPdf = document.getElementById('download-calendar-pdf');
-downloadCalendarPdf.addEventListener("click", () =>  {
-  alert("You are about to download the calendar PDF");
-});
+
+if(downloadCalendarPdf != null) {
+  downloadCalendarPdf.addEventListener("click", () =>  {
+    alert("You are about to download the calendar PDF");
+  });
+}
   
