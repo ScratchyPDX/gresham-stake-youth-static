@@ -36,7 +36,17 @@
     display: flex;
     justify-content: center;
   }
-  
+
+  #events-calendar {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
   #news {
     grid-column: 2/4;
     grid-row: 3/4;

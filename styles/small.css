@@ -123,19 +123,21 @@ main {
   font-size: 0.8rem;
 }
 main .article {
+  display: block;
   margin: 0.2em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #eee;
   position: relative;
   background-color: var(--accent1-color);
+  justify-content: center;
 }
 main .article .button {
-  position: absolute;
-  left: 2rem;
-  bottom: 2rem;
-  width: 12rem;
-  font-size: 2rem;
-  background-color: var(--secondary-color);
+  /* position: absolute; */
+  /* left: 2rem; */
+  /* bottom: 2rem; */
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: var(--accent2-color);
   border-radius: 10px;
 }
 main .article p {
@@ -197,7 +199,6 @@ th {
   padding: 1rem;
 }
 .heading1 {
-  background-color: var(--accent2-color);
   font-weight: 700;
   margin: auto;
   font-size: 2rem;
