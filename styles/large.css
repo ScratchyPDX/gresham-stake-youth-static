@@ -24,13 +24,12 @@
   }
   
   .hero .theme {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     align-items: center;
     justify-content: center;
-    left: calc(33%);
-    position: absolute;
-    bottom: 10px
+    bottom: 10px;
   }
   .hero .theme h3 {
     display: flex;
